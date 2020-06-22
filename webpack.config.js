@@ -20,7 +20,7 @@ module.exports = {
     path: path.resolve(__dirname, 'lib'),
     filename: 'WrapperTheme.js',
     library: 'WrapperTheme',
-    libraryTarget: 'amd'
+    libraryTarget: 'var'
   },
   externals: [
     {
